@@ -20,6 +20,19 @@ namespace OOP_Logic_IT1B
             List<bool> result = new List<bool>();
             bool[] flag = new bool[4];
             
+            for(int i = 0; i < pattern.Length; i++)
+            {
+                if(pattern[i] == Pins[i])
+                {
+                    flag[i] = false;
+                    result.Add(true);
+                }
+            }
+
+            for(int i = 0; i < pattern.Length; i++)
+            {
+
+            }
             
             return new List<bool>();
         }
